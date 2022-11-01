@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
 
-        playerText.text = "Player: " + GameManager.Instance.PlayerName;
+      //  playerText.text = "Player: " + GameManager.Instance.PlayerName;
     }
 
     // Update is called once per frame
@@ -17,4 +17,7 @@ public class LevelManager : MonoBehaviour
     {
          
     }
+
+
+
 }
