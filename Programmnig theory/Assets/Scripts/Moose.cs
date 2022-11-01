@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Moose : Enemy
+public class Moose : Enemy // INHERITANCE
 {
-    // Start is called before the first frame update
     void Update()
     {
         Move();
     }
 
+    // POLYMORPHISM
     public override void Move()
     {
         speed = 0.2f;
-        base.Move();
+        base.Move(); // ABSTRACTION
     }
 }

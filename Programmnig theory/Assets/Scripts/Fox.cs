@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fox : Enemy
+public class Fox : Enemy // INHERITANCE
 {
     // Start is called before the first frame update
 
@@ -13,9 +13,10 @@ public class Fox : Enemy
         Move();
     }
 
+    // POLYMORPHISM
     public override void Move()
     {
         speed = 2;
-        base.Move();
+        base.Move(); // ABSTRACTION
     }
 }
